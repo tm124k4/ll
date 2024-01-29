@@ -1,0 +1,2 @@
+//https://github.com/tm124k4/ll.js MIT License
+ll=($,_="data-src")=>{((d,o,g)=>{o=new IntersectionObserver((a)=>{a.map((c,a,t,s=async(S,t,a,r,_="Attribute")=>{if(S){S=await((s)=>{return new Promise((r,e,d=new Image())=>{d.onload=()=>r(s);d.src=s})})(t["get"+_](a));t["remove"+_]()}t["set"+_](r,S);o.unobserve(t)})=>{if(c.isIntersecting){t=c.target;a=t.tagName;a=="IMG"?s(1,t,g,"src"):a=="SOURCE"?s(1,t,g,"srcset"):s("",t,g,g)}})});for(_ of d)o.observe(_)})($?.$||$,0,$?._||_)}
